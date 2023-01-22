@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="contenedor">Encriptador Alura Challenge</h1>
+    <main class="contenedor main">
+        <div class="logo">
+            <img src="img/Vector.png" alt="imagen logo">
+        </div>
+        <div class="texto-1">
+            <textarea class="texto" col="20" rows="20" id="input" type="text" placeholder="Ingresa la frase aquí"></textarea>
+        </div>
+        <div class="panel">
+            <div class="warning">
+                <img src="img/signal.png" alt="imagen warning">
+                <p>Slolo letras mínusculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button class="btn_1" onclick="encrypt()">Encriptar</button>
+                <button class="btn_2" onclick="decrypt()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="mensaje">
+            <img src="img/bot_search.png" alt="imagen de busqueda" id="imagen">
+            <h2 class="encabezado" id="h2-txt-2">Ningún mensaje fue encontrado</h2>
+            <textarea class="texto-2" name="name" id="txt-2">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+            <button class="btn_1" id="copy" onclick="copy()">Copiar</button>
+        </div>
+    </main>
+    <footer class="footer">Elaborado By <span>Alex Rodríguez</span></footer>
+
+  
+    <script src="/Js/script.js"></script>
+</body>
+</html>
